@@ -15,14 +15,12 @@ class App extends Component {
              <div>
                   <header>
                       <div className="container-fluid bg-gray">
-                          <p className="na-brand" href="#"><Link to="/"><img src="/img/index_icon_range.png" width="10%" alt={"none"}/></Link></p>
+                          <a className="na-brand" href="#"><Link to="/"><img src="/img/index_icon_range.png" width="10%" alt={"none"}/></Link></a>
                           <div className="navbar-right mg-top-20">
-                              <p className="na-sign-in" href="#"><Link to="/sign_in"><i className="fa fa-user" /> ĐĂNG NHẬP</Link></p>
-                              <p className="na-sign-in hidden" href="#"><i className="fa fa-sign-out" /> ĐĂNG XUẤT</p>
+                              <a className="na-sign-in" href="#"><Link to="/sign_in"><i className="fa fa-user" /> ĐĂNG NHẬP</Link></a>
+                              <a className="na-sign-in hidden" href="#"><i className="fa fa-sign-out" /> ĐĂNG XUẤT</a>
                               <div className="langauge">
-                                  <p><a href="#">EN</a>
-                                      |
-                                      <a className="langauge-active" href="#">VN</a> </p>
+                                  <p><a href="#">EN </a>|<a className="langauge-active" href="#"> VN</a></p>
                               </div>
                           </div>
                           <div className="na-bot mg-top-10">
@@ -65,7 +63,7 @@ class App extends Component {
                                               </ul>
                                           </li>
                                           <li><a className="na-item" href="#">LIÊN HỆ</a></li>
-                                          <li><p className="na-item"><Link to="/user">THÀNH VIÊN</Link></p></li>
+                                          <li><a className="na-item"><Link to="/user">THÀNH VIÊN</Link></a></li>
                                           <li><a className="na-item" href="#">THANH TOÁN</a></li>
                                       </ul>
                                   </div>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Sub_home from './sub/sub_home'
 
 class Home extends Component {
     render() {
@@ -7,21 +8,21 @@ class Home extends Component {
               <main>
                   <div id="home" className="carousel slide animated fadeInUp" data-ride="carousel">
                       <ol className="carousel-indicators home-dot">
-                          <li data-target="#home" data-slide-to="0" className="active"></li>
-                          <li data-target="#home" data-slide-to="1"></li>
-                          <li data-target="#home" data-slide-to="2"></li>
+                          <li data-target="#home" data-slide-to="0" className="active"/>
+                          <li data-target="#home" data-slide-to="1"/>
+                          <li data-target="#home" data-slide-to="2"/>
                       </ol>
 
                       <div className="carousel-inner text-center home-inner" role="listbox">
                           <div className="item active">
-                              <img src="./img/index_slide/1.jpg" alt="Brandi Img 1" width="100%"/>
+                              <img src="./img/img_home/index_slide/1.jpg" alt="Brandi Img 1" width="100%"/>
                           </div>
                           <div className="item">
-                              <img src="./img/index_slide/2.jpg" alt="Brandi Img 2" width="100%"/>
+                              <img src="./img/img_home/index_slide/2.jpg" alt="Brandi Img 2" width="100%"/>
 
                           </div>
                           <div className="item">
-                              <img src="./img/index_slide/3.jpg" alt="Brandi Img 3" width="100%"/>
+                              <img src="./img/img_home/index_slide/3.jpg" alt="Brandi Img 3" width="100%"/>
                           </div>
                       </div>
 
@@ -61,6 +62,79 @@ class Home extends Component {
                               </div>
                       </div>
                   </div>
+
+                  <Sub_home/>
+
+                  <div className="main-bg-img">
+                      <div className="caption">
+                      </div>
+                  </div>
+
+
+                  <div id="team" className="container text-center ">
+                      <div className="row">
+                          <h2>EVENT</h2>
+                          <div className="headdingGray"><sup className="spainGray pd-right-20"
+                                                            >________________</sup><i
+                              className="fa fa-heart-o"/>
+                              <sup className="spainGray pd-left-20" >________________</sup></div>
+
+                          <div id="team-slide" className="carousel slide team-img" data-ride="carousel">
+                              <div className="carousel-inner" role="listbox">
+                                  <div className="item active">
+                                      <div className="col-sm-3  team-img-all">
+                                          <div className="team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/1.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/2.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/3.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/4.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="item">
+                                      <div className="col-sm-3  team-img-all">
+                                          <div className="team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/5.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/6.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/7.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                      <div className="col-sm-3 team-img-all">
+                                          <div className=" team-img-col">
+                                              <img className="team-img-pic" src="img/img_home/index_event/8.jpg" width="100%"/>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                              <ol className="carousel-indicators team-dot">
+                                  <li data-target="#team-slide" data-slide-to="0" className="active"/>
+                                  <li data-target="#team-slide" data-slide-to="1"/>
+                              </ol>
+                          </div>
+                      </div>
+                  </div>
+
 
               </main>
           </div>
