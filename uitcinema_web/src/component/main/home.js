@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Sub_home from './sub/sub_home'
+import {  Link } from "react-router-dom";
 
 class Home extends Component {
     render() {
@@ -58,7 +59,7 @@ class Home extends Component {
                                           <option value="1">21:45, 2D - Phụ đề</option>
                                       </select>
                                   </div>
-                                  <a className="btn home-button-dropdown" role="button" href="slot.html">MUA VÉ</a>
+                                  <Link className="btn home-button-dropdown" role="button" to="/slot">MUA VÉ</Link>
                               </div>
                       </div>
                   </div>
@@ -69,7 +70,6 @@ class Home extends Component {
                       <div className="caption">
                       </div>
                   </div>
-
 
                   <div id="team" className="container text-center ">
                       <div className="row">

@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {  Link } from "react-router-dom";
+import Movie_01 from "../movie/sub_movie/movie_video/movie_01";
 
 class Sub_home extends Component {
     render() {
@@ -22,13 +24,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -46,13 +45,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -71,13 +67,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -95,13 +88,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -125,13 +115,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -149,13 +136,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -174,13 +158,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -198,13 +179,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -228,13 +206,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -252,13 +227,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -277,13 +249,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -301,13 +270,10 @@ class Sub_home extends Component {
                                                 <div className="fea-fade-text">
                                                     <hr className="hr-color-orange"/>
                                                     <p className="text-center">
-                                                        <button className="fea-fade-button f-left">CHI TIẾT
-                                                        </button>
+                                                        <Link to="/movie_info_01" className="fea-fade-button f-left">CHI TIẾT</Link>
                                                         <span>18+</span>
-                                                        <button type="button" data-toggle="modal"
-                                                                data-target="#myModalBooking"
-                                                                className="fea-fade-button f-right">ĐẶT VÉ
-                                                        </button>
+                                                        <Link to="/booking_movie" className="fea-fade-button f-right">ĐẶT VÉ
+                                                </Link>
                                                     </p>
                                                 </div>
                                             </div>
@@ -342,161 +308,11 @@ class Sub_home extends Component {
                     </div>
                 </div>
 
-                 {/*Modal button video*/}
-
+                {/*movie*/}
                 <div className="modal fade" id="myModal" role="dialog">
-                    <div className="modal-dialog modal-lg">
-                        <div className="modal-content modal-button-video-bg">
-                            <div className="modal-header">
-                                <button type="button" className="close modal-button-video-close"
-                                        data-dismiss="modal">&times;</button>
-                                <iframe width="860" height="515" src="https://www.youtube.com/embed/pzD9zGcUNrw"
-                                        frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen/>
-                            </div>
-                        </div>
-                    </div>
+                    <Movie_01/>
                 </div>
 
-                {/*Modal button booking*/}
-
-                <div className="modal fade" id="myModalBooking" role="dialog">
-                    <div className="modal-dialog modal-lg">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <button type="button" className="close " data-dismiss="modal">&times;</button>
-                                <div>
-                                    <ul className="nav nav-tabs">
-                                        <li className="active">
-                                            <a className="tab-item" href="#1" data-toggle="tab"><span
-                                                className="f-left tab-day">T5</span> 18/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#1" data-toggle="tab"><span
-                                            className="f-left tab-day">T6</span> 19/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#2" data-toggle="tab"><span
-                                            className="f-left tab-day">T7</span> 20/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#3" data-toggle="tab"><span
-                                            className="f-left tab-day">CN</span> 21/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#2" data-toggle="tab"><span
-                                            className="f-left tab-day">T2</span> 22/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#3" data-toggle="tab"><span
-                                            className="f-left tab-day">T3</span> 23/10 <br/>2018</a>
-                                        </li>
-                                        <li><a className="tab-item" href="#3" data-toggle="tab"><span
-                                            className="f-left tab-day">T4</span> 24/10 <br/>2018</a>
-                                        </li>
-                                    </ul>
-
-                                    <div className="tab-content ">
-                                        <div className="tab-pane active" id="1">
-                                            <h3>Không có dữ liệu tại ngày này</h3>
-                                        </div>
-                                        <div className="tab-pane" id="2">
-                                            <div className="mg-top-20">
-                                                <ul className="nav nav-tabs tab-fix">
-                                                    <li className="tab-item-in"><a href="#tab_in1_1"
-                                                                                   data-toggle="tab">UIT CINEMA BÌNH
-                                                        DƯƠNG</a>
-                                                    </li>
-                                                    <li className="tab-item-in"><a href="#tab_in1_2"
-                                                                                   data-toggle="tab">UIT CINEMA THỦ
-                                                        ĐỨC</a>
-                                                    </li>
-                                                    <li className="tab-item-in"><a href="#tab_in1_1"
-                                                                                   data-toggle="tab">UIT CINEMA BÌNH
-                                                        THẠNH</a>
-                                                    </li>
-                                                </ul>
-
-                                                <div className="tab-content">
-                                                    <div className="tab-pane active" id="tab_in1_1">
-                                                        <div className=" mg-top-20">
-                                                            <hr/>
-                                                            <ul className="nav nav-tabs tab-fix">
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">17:00</a>
-                                                                </li>
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">19:30</a>
-                                                                </li>
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">21:30</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div className="tab-pane" id="tab_in1_2">
-                                                        <div className=" mg-top-20">
-                                                            <hr/>
-                                                            <ul className="nav nav-tabs tab-fix">
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">17:00</a>
-                                                                </li>
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">19:30</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="tab-pane" id="3">
-                                            <div className=" mg-top-20">
-                                                <ul className="nav nav-tabs tab-fix">
-                                                    <li className="tab-item-in"><a href="#tab_in_1" data-toggle="tab">UIT
-                                                        CINEMA BÌNH DƯƠNG</a>
-                                                    </li>
-                                                    <li className="tab-item-in"><a href="#tab_in_2" data-toggle="tab">UIT
-                                                        CINEMA THỦ ĐỨC</a>
-                                                    </li>
-                                                </ul>
-
-                                                <div className="tab-content">
-                                                    <div className="tab-pane active" id="tab_in_1">
-                                                        <div className=" mg-top-20">
-                                                            <hr/>
-                                                            <ul className="nav nav-tabs tab-fix">
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">17:00</a>
-                                                                </li>
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">21:30</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div className="tab-pane" id="tab_in_2">
-                                                        <div className=" mg-top-20">
-                                                            <hr/>
-                                                            <ul className="nav nav-tabs tab-fix">
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">17:00</a>
-                                                                </li>
-                                                                <li className="tab-item-in"><a
-                                                                    href="#tab_continues">19:30</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div className="mg-top-20">
-                                    <a className="btn tab-button-dropdown" role="button" href="slot.html">TIẾP TỤC</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
     );

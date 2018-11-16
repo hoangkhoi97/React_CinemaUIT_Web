@@ -56,16 +56,16 @@
   margin-right: 0;
 }
 .na-sign-in{
-  a{
     color:#a0a3a7;
     margin-right: 20px;
-  }
 }
 .na-sign-in:hover{
-  a{
     color:orange;
     text-decoration: none;
-  }
+}
+.na-sign-in:focus{
+  color:orange;
+  text-decoration: none;
 }
 
 .langauge{
@@ -118,13 +118,6 @@
     @media screen and( min-width: 1600px) {
       font-size: 13px;
     }
-    a{
-      color: #d5d5d5 !important;
-      text-decoration: none;
-    }
-    a:focus, a:hover {
-      text-decoration: none
-    }
   }
   .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
     background: none!important;
@@ -133,15 +126,10 @@
     color: #fff !important;
     background: none!important;
     border-bottom: 1px solid orange !important;
-     a:hover {
-      text-decoration: none;
-    }
   }
 
   .na-item:focus{
-    a:focus {
       text-decoration: none;
-    }
   }
   .na-item:active{
     color: #fff !important;
