@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Movie_01 from "./movie_video/movie_01";
+import {Link} from "react-router-dom";
 
 class Movie_info_01 extends Component {
     render() {
@@ -36,6 +37,8 @@ class Movie_info_01 extends Component {
                         <div className="container fea-container">
                                     <h4 className="text-left"><span className="spainBold">Giới thiệu:</span> Cái chết bí ẩn của nữ ma sơ điều
                                         gì đang chờ đợi</h4>
+
+                            <Link className="btn slot-button-final center-block" role="button" to="/booking_movie">ĐẶT VÉ</Link>
 
 
                         </div>

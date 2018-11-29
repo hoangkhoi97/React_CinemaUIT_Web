@@ -1,5 +1,25 @@
 import React, {Component} from 'react';
-import {  Link } from "react-router-dom";
+import {  BrowserRouter as Router, Link, withRouter } from "react-router-dom";
+import fakeAuth from "../main/sub/private_route";
+
+
+const AuthButton = withRouter(
+    ({ history }) =>
+        fakeAuth.isAuthenticated ? (
+            <p>
+                Welcome!{" "}
+                <button className="na-sign-in"
+                    onClick={() => {
+                        fakeAuth.signout(() => history.push("/"));
+                    }}
+                >
+                    <i className="fa fa-sign-out" /> ĐĂNG XUẤT
+                </button>
+            </p>
+        ) : (
+            <Link className="na-sign-in" to="/sign_in"><i className="fa fa-user" /> ĐĂNG NHẬP</Link>
+        )
+);
 
 class Header extends Component {
     render() {
@@ -9,11 +29,7 @@ class Header extends Component {
                     <div className="container-fluid bg-gray">
                         <Link className="na-brand" to="/"><img src="/img/index_icon_range.png" width="10%" alt={"icon_web"}/></Link>
                         <div className="navbar-right mg-top-20">
-                            <Link className="na-sign-in" to="/sign_in"><i className="fa fa-user" /> ĐĂNG NHẬP</Link>
-                            <a className="na-sign-in hidden" href="#"><i className="fa fa-sign-out" /> ĐĂNG XUẤT</a>
-                            <div className="langauge">
-                                <p><a href="#">EN </a>|<a className="langauge-active" href="#"> VN</a></p>
-                            </div>
+                            <AuthButton />
                         </div>
                         <div className="na-bot mg-top-10">
                             <form className="navbar-form navbar-left" action>

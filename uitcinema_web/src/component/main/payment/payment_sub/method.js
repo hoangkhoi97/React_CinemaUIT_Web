@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class Method extends Component {
     render() {
@@ -24,7 +25,7 @@ class Method extends Component {
                     </div>
                     <div className="submitb">
                         {/* Mua tiep*/}
-                        <button id="contact_form_submit" type="submit" className="btn btn-primary" value="Submit" style={{float: 'right', width: 150}}>Xem tiếp</button>
+                        <Link to="/" id="contact_form_submit" type="submit" className="btn btn-primary" value="Submit" style={{float: 'right', width: 150}}>Xem tiếp</Link>
                     </div>
                     <br/>
                     <br/>
